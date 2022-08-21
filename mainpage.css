@@ -18,6 +18,16 @@ html, body{
     padding-bottom: 80%;
 }
 
+.headingrow {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.heading,.homebutton {
+    margin-left:auto;
+  }
+
 .wave {
     animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
     animation-duration: 2.5s;        /* Change to speed up or slow down */
